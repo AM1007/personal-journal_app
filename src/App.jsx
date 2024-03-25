@@ -1,7 +1,12 @@
 import "./App.css";
+import Logo from "./components/Logo/Logo";
 
 function App() {
-  return <h1>Project</h1>;
+  return (
+    <>
+      <Logo />
+    </>
+  );
 }
 
 export default App;
